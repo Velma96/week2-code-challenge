@@ -1,0 +1,18 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box
+}
+body{
+  font-family: Arial,sans-serif;
+  background-color: lightslategray;
+  color:#333;
+  background: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+header{
+  background-color: ivory;
+  color:teal;
+  padding: 20px;
+}
