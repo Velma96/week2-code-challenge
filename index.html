@@ -7,7 +7,19 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header></header>
+    <header>
+      <h1>Cart Blanche:Shop your way!</h1>
+      <p>Add to cart, spark your heart!</p>
+      <div class="navbar">
+          <img src="logo.jpg" alt="Phoebe Velma Awuor" class="profile-pic">
+
+          <ul>
+              <li><a href="#shopping-list-container">Home</a></li>
+              <li><a href="#inspiration">Inspirations</a></li>
+              <li><a href="#feedback">Feedback</a></li>
+          </ul>
+      </div>
+    </header>
     <main>
         <div class="shopping-list-container">
             <h2>Shopping List</h2>
@@ -17,9 +29,65 @@
               <button id="clear-button">Clear List</button>
             </div>
             <ul id="list-container"></ul>
+        </div>
+
+        <div class="inspiration">
+          <h2>Outfit Inspos</h2>
+          <div class="grid">
+            <div class="grid-item">
+              <img src="pic1.jpg" alt="Image 1">
+              <p class="caption">Caption for Image 1</p>
+            </div>
+            <div class="grid-item">
+              <img src="pic2.jpg" alt="Image 2">
+              <p class="caption">Caption for Image 2</p>
+            </div>
+            <div class="grid-item">
+              <img src="pic3.jpg" alt="Image 3">
+              <p class="caption">Caption for Image 3</p>
+            </div>
+            <div class="grid-item">
+              <img src="pic 4.jpg" alt="Image 4">
+              <p class="caption">Caption for Image 4</p>
+            </div>
           </div>
+        </div>
+
+        <div id="feedback" class="feedback-section">
+              <div class="container">
+                  <h2>Kindly, leave a feedback</h2>
+                  <p>Your feedback helps me improve. Please share your thoughts</p>
+                  <form id="feedback-form" class="feedback-form">
+                      <label for="name">Your name</label>
+                      <input type="text" id="name"
+                      name="name" placeholder="Enter your name" required>
+                      
+                      <label for="email">Your email</label>
+                      <input type="email" id="email"
+                      name="email" placeholder="Enter your email" required>
+      
+                      <label for="message">Your feedback:</label>
+                      <textarea name="message" id="message" rows="4" placeholder="Enter your feedback" required></textarea>
+      
+                      <button type="submit" class="submit-btn">submit Feedback</button>
+      
+      
+                  </form>
+      
+              </div>
+              
+      
+        </div>
+          
     </main>
-    <footer></footer>
+    
+    <footer>
+        <p>&copy;2024 Phoebe Velma Awuor. All rights reserved.</p>
+        <a href="https://github.com/Velma96">
+          <img src="pintrest.jpg" alt="pintrest" style="width: 30px; height: auto; justify-content: center;">
+      </a>
+    </footer>
+    
 
   <script src="index.js"></script>
 </body>
