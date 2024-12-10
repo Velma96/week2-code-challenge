@@ -1,16 +1,17 @@
 document.addEventListener("DOMContentLoaded", () => {
+  //Retrive the shopping list from local storage
   let shoppingList = JSON.parse(localStorage.getItem("shoppingList")) || [];
 
   const addButton = document.getElementById("add-button");
   const clearButton = document.getElementById("clear-button");
   const itemInput = document.getElementById("item-input");
   const listContainer = document.getElementById("list-container");
-
+ //save the shopping list to localStorage
   const saveList = () => {
     localStorage.setItem("shoppingList", JSON.stringify(shoppingList));
   };
 
-  
+  //function to render the shopping list items on the page
   const renderList = () => {
     listContainer.innerHTML = ""; 
     shoppingList.forEach((item, index) => {
