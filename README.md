@@ -1,4 +1,3 @@
-Here's a sample **README.md** file for your Interactive Shopping List project:
 
 ---
 
@@ -6,6 +5,16 @@ Here's a sample **README.md** file for your Interactive Shopping List project:
 
 This is a dynamic, interactive shopping list application that allows users to add, edit, mark as purchased, and remove items from their shopping list. The application also saves the list in the browser's local storage, ensuring persistence even after a page reload.
 
+---
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup Instructions](#setup-instructions)
+- [File structure](#file-structure)
+- [Usage Instructions](#usage-instructions)
+- [Demo](#demo)
+- [Future Improvements](#future-improvements)
+- [Contact Information](#contact-information)
 ---
 
 ## Features
@@ -27,7 +36,15 @@ This is a dynamic, interactive shopping list application that allows users to ad
 
 ## Setup Instructions
 1. Clone or download this repository to your local machine.
-2. Ensure the project files (`index.html`, `style.css`, `index.js`) are in the same directory.
+```bash
+git clone---
+```
+2. Ensure the project files (`index.html`, `style.css`, `index.js`) are in the same directory and open the file in vs code
+```bash
+cd week2-code-challenge
+code .
+
+```
 3. Open the `index.html` file in any modern web browser.
 
 ---
@@ -76,9 +93,14 @@ Here’s how the application looks and works:
 
 ---
 
-## Author
-**Phoebe Velma Awuor**
+## Contact Information
+For any inquiries, feedback, or collaboration opportunities, feel free to reach out:
+
+- *Name*: Phoebe Velma Awuor
+- *Email*: [awuorphoebi@gmail.com]
+- *LinkedIn*: [https://www.linkedin.com/in/phoebe-velma-awuor/](#)
+- *GitHub*: [https://github.com/Velma96](#)
 
 ---
+---
 
-Let me know if you need additional sections or adjustments!
