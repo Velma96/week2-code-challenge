@@ -14,12 +14,13 @@ document.addEventListener("DOMContentLoaded", () => {
   //function to render the shopping list items on the page
   const renderList = () => {
     listContainer.innerHTML = ""; 
+    //clear the existing list
     shoppingList.forEach((item, index) => {
       const listItem = document.createElement("li");
       listItem.className = item.purchased ? "purchased" : "";
       listItem.textContent = item.name;
 
-      
+      //create and apppend a  "mark purchased/unmark" button
       const purchaseButton = document.createElement("button");
       purchaseButton.textContent = item.purchased ? "Unmark" : "Mark Purchased";
       purchaseButton.className = "purchase-btn";
@@ -28,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
         saveList();
         renderList();
       });
-
+       // create and append an "edit button"
       
       const editButton = document.createElement("button");
       editButton.textContent = "Edit";
@@ -41,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
           renderList();
         }
       });
-
+       // create and append a "remove button"
       const removeButton = document.createElement("button");
       removeButton.textContent = "Remove";
       removeButton.className = "remove-btn";
